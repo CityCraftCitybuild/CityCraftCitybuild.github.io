@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+    <head>
+        <title>CityCraft - Commands</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png?v=BG70oBaPzN">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png?v=BG70oBaPzN">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png?v=BG70oBaPzN">
+        <link rel="manifest" href="/favicons/site.webmanifest?v=BG70oBaPzN">
+        <link rel="shortcut icon" href="/favicons/favicon.ico?v=BG70oBaPzN">
+        <meta name="msapplication-TileColor" content="#1886cd">
+        <meta name="msapplication-config" content="/favicons/browserconfig.xml?v=BG70oBaPzN">
+        <meta name="theme-color" content="#1886cd">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css?v=a5600e4a74937f46" media="screen, projection">
+        <link type="text/css" rel="stylesheet" href="css/styles.css?v=00d6336ce759f8ef" media="screen, projection">
+        <link type="text/css" rel="stylesheet" href="css/commands.css?v=aee951e4603b4c10" media="screen, projection">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+        <div class="navbar-fixed">
+            <nav class="grey darken-4">
+                <div class="nav-wrapper">
+                    <a data-target="sidenav" class="hide-on-large-only white-text button-collapse sidenav-button sidenav-trigger clickable">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <li>
+                                <a class="white-text btn btn-flat waves-effect" href="/">
+                                    <i class="material-icons left">home</i>HOME
+                                </a>
+                            </li>
+                            <li>
+                                <a class="downloads-button white grey-text text-darken-4 btn nav-btn waves-effect" href="commands">
+                                    <i class="material-icons left">code</i>Commands
+                                </a>
+                            </li>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <ul id="sidenav" class="sidenav">
+            <li>
+                <a class="white-text btn btn-flat waves-effect" href="/">
+                    <i class="material-icons left">home</i>HOME
+                </a>
+            </li>
+            <li>
+                <a class="btn light-blue darken-2 waves-effect waves-light" href="commands">Commands</a>
+            </li>
+        </ul>
+        <main>
+            <div class="jumbotron white-text">
+                <h1>Commands</h1>
+                <p>Unten siehst du alle Commands für verschiedene Bereiche.</p>
+            </div>
+            <div id="content" class="row"></div>
+            <section id="section-why" class="container">
+                <h1 class="center-align">Plot</h1>
+                <div class="row">
+                    <div class="col s12 l9">
+                        <h4>/p auto</h4>
+                        <p>Erstelle dir ein Plot.</p>
+                    </div>
+                    <div class="col s12 l9">
+                        <h4>/p claim</h4>
+                        <p>Nimm dir das Plot, auf dem du stehst, wenn es keinen Besitzer hat.</p>
+                    </div>
+                    <div class="col s12 l9">
+                        <h4>/p home</h4>
+                        <p>Gehe zu deinem Plot.</p>
+                    </div>
+                    <div class="col s12 l9">
+                        <h4>/p visit SPIELER</h4>
+                        <p>Gehe zu einem Plot von einem Spieler.</p>
+                    </div>
+                </div>
+
+                <h1 class="center-align">Economy</h1>
+                <div class="row">
+                    <div class="col s12 l9">
+                        <h4>/pay SPIELER</h4>
+                        <p>Gib einem Spieler Geld.</p>
+                    </div>
+                    <div class="col s12 l9">
+                        <h4>/money</h4>
+                        <p>Gibt dir aus, wie viel Geld du hast.</p>
+                    </div>
+                </div>
+
+                <h1 class="center-align">Essentials</h1>
+                <div class="row">
+                    <div class="col s12 l9">
+                        <h4>/sethome NAME</h4>
+                        <p>Setze ein zu Hause..</p>
+                    </div>
+                    <div class="col s12 l9">
+                        <h4>/home NAME</h4>
+                        <p>Gehe zu einem zu Hause.</p>
+                    </div>
+                    <div class="col s12 l9">
+                        <h4>/delhome NAME</h4>
+                        <p>Lösche ein zu Hause.</p>
+                    </div>
+                </div>
+
+                <h1 class="center-align">Others</h1>
+                <div class="row">
+                    <div class="col s12 l9">
+                        <h4>/nav</h4>
+                        <p>Öffnet ein Inventar, in dem du dich zu einer Welt teleportieren kannst.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="page-footer grey darken-4">
+            <div class="footer-copyright">
+                <div class="container">
+                    <span class="copyright">&copy; 2021 CityCraft</span>
+                    <a class="white-text right waves-effect" href="https://github.com/CityCraftCitybuild/CityCraftCitybuild.github.io">
+                        <i class="material-icons">call_split</i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript" src="js/materialize.min.js?v=f5a59995b708bcd4"></script>
+        <script type="text/javascript" src="js/script.js?v=1b8de8af33739e56"></script>
+    </body>
+</html>

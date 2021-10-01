@@ -1,0 +1,44 @@
+.builds-table td:last-child, .builds-table th:last-child {
+    width:max-content
+}
+
+.commands-desc {
+    padding:10px
+}
+
+.wide-btn {
+    display:block;
+    margin:0 auto
+}
+
+.commit-hash, .commit-hash a {
+    font-size:12px;
+    font-family:monospace !important
+}
+
+.jumbotron {
+    background-image: url('../images/jumbotron.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    margin: 1.5rem 0;
+}
+
+#commands-tabs {
+    display:flex
+}
+
+#commands-tabs .tab {
+    flex-grow:1
+}
+
+@media only screen and (max-width: 601px) {
+    #commands-tabs .indicator {
+        display:none
+    }
+}
