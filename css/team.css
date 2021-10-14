@@ -16,6 +16,11 @@
     font-family:monospace !important
 }
 
+.centered-text {
+    padding: 1rem 0;
+    text-align: center;
+}
+
 .jumbotron {
     background-image: url('../images/jumbotron.png');
     background-position: bottom;
